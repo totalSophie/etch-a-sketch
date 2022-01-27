@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch a Sketch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="title"> 
+        <h1> Etch A Sketch </h1></section>
+    <section class="container">
+        <section class="heading-container">
+            <div class="slidecontainer">
+                <p><strong>Pick Grid Size: </strong> </p>
+                <input type="range" min="1" max="100" value="50" class="range-slider">
+                <span id="val-box"> </span>
+
+                <div class="color-picker">
+                    <label for="colorpicker"> <strong> Color Picker: </strong></label>
+                    <input type="color" id="colorpicker" value="#0000ff">
+                </div>
+
+            </div>   
+            <div class="erase">Erase</div>            
+        </section>
+        <section class="big-container">
+            <section class="grid-container"></section>
+        </section>
+        
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

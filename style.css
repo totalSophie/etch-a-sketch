@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
+body{
+    background-image: url("./bgd.jpg") ;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.title{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border: 5px solid rgb(2, 3, 26);
+    color: rgb(114, 36, 160);
+    padding: 5px;
+    width: 350px;
+    height: 30px;
+    margin: 40px auto;
+    font-size: 20px;
+    font-family: 'Yatra One', cursive;
+}
+
+.heading-container{
+    background-color: azure;
+    height: fit-content;    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.erase{
+    background-color: aliceblue;
+    border: 2px solid gray;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 5px;
+    height: fit-content;
+}
+
+.slidecontainer {
+    width: 100%;
+    padding: 10px;
+  }
+  
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+.slider:hover {
+    opacity: 1;
+  }
+
+.color-picker{
+    padding: 15px 0;
+}
+
+.grid-container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 480px;
+    width: 480px;    
+    margin: 20px auto;
+}
+
+.small-div{
+    border: 1px solid gray;   
+}
+
+.bigDiv{
+    border: 1px solid gray;
+    width: 28px;
+    
+}
+
+.hov:hover{
+    background-color: gray;
+}
